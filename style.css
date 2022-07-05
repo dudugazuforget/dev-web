@@ -1,0 +1,116 @@
+*{
+    background-color: white;
+    color: rgb(255, 0, 179);
+    margin: 0;
+    padding: 0;
+}
+
+/*cabecalho*/
+.header{
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.logo{ 
+    height: 150px;
+    width: 150px;
+    border: 2px;
+    float: left;
+    border-radius: 12px;
+}
+
+.imagemlogo{
+    height: 150px;
+    width: 150px;
+    border-radius: 12px; 
+}
+
+h1{
+    -webkit-text-stroke: 1px #000;
+    -webkit-text-fill-color: rgb(249, 0, 137);
+}
+
+.nomelogo{
+    height: 150px;
+    width: 150px;
+    border: 2px;
+    border: 12px;
+    float: left;
+}
+
+
+.forget{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border: 12px;
+    float: right;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+a {
+    color: pink;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+
+li {
+    color: pink;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+
+/*lateral*/
+.nav{
+    height: 800px;
+    width: 250px;
+    border: 2px solid black;
+    float: none;
+    margin-top: 10px;
+    border-radius: 12px;
+    position: absolute;
+}
+
+.navbox, .navbox2, .navbox3, .navbox4{
+    height: 200px;
+    width: 250px;
+    border: 2px;
+}
+/*Corpo*/
+.main{
+    background-color: black;
+    height: 800px;
+    border: 2px solid black;  
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 12px;
+}
+.noticia1, .noticia2, .noticia3, .noticia4, .noticia5, .noticia6{
+    height: 350px;
+    width: 540px;
+    border: 2px solid rgb(255, 255, 255); 
+    float: right;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+
+/*rodape*/
+.footer{
+    height: 100px;
+    border: 2px solid black; 
+    margin-top: 10px;
+    border-radius: 12px;
+}
+.rodape{
+    height: 100px;
+    width: 200px;
+    float: right;
+    border-radius: 12px;
+}
+
+
